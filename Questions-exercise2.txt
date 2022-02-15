@@ -1,0 +1,51 @@
+Task 1  -  Convert do while loop into while loop
+   
+   Ans: 
+           Int I=1;
+              while(i<6)
+      {
+             system.out.println(“I will get printed once for sure”);
+           
+           I++;
+}
+
+
+Task 2
+ 
+There are some limitations with For-each loop.Can you find what they are?
+
+Ans:  1.It is not appropriate for modify array.
+          2.It can’t retrieve elements based on index.
+          3.It not possible to reverse the order
+
+Questions
+
+1.When to go for double? And when to use float?
+
+ Ans: Double datatype is used for accuracy.
+         It stores the decimal number upto 15 numbers after the decimal.
+
+         Float is used to store floating points like 19.99 to -19.99.
+         It stores the decimal number upto 7 numbers.
+
+2.Can char store negative numbers in JAVA?
+
+Ans: Char is unsigned datatype so in Java char not store any negative value.
+
+3.Find the output
+                            int a=10;
+                            Int b=10;
+                             System.out.println (a++ + ++a);
+ Ans:22
+
+4.Find the output
+                           Int b=10;
+                           System.out.println(~b);
+
+Ans: 9
+It is unary operator and it gives positive of total negative
+
+5.Explore about short circuiting
+
+Ans: If evaluation of a logical expression exits in between before complete evaluation, then it is known as Short-circuit.
+A short circuit happens because the result is clear even before the complete evaluation of the expression, and the result is returned
